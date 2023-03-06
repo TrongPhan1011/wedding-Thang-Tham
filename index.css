@@ -26,11 +26,13 @@
 .title-name {
   display: flex;
   justify-content: center;
+
   width: 100%;
   color: #df4759;
-  font-size: 50px;
+  font-size: 40px;
   padding: 0 0 5px 0;
   font-family: "Dancing Script", cursive;
+  position: relative;
 }
 
 /* menu */
@@ -59,4 +61,51 @@
   width: 80px;
   height: 3px;
   background-color: #df4759;
+}
+
+/* heart */
+
+.heart {
+  width: 600px;
+  position: absolute;
+  z-index: -1;
+  top: 10;
+}
+
+.h-name {
+  height: 600px;
+}
+
+/* responsive */
+@media only screen and (max-width: 450px) {
+  .heart {
+    width: 400px;
+  }
+  .h-name {
+    height: 500px;
+  }
+  .title-name {
+    font-size: 30px;
+  }
+  .title-header {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .heart {
+    width: 350px;
+  }
+  .h-name {
+    height: 400px;
+  }
+  .title-name {
+    font-size: 25px;
+  }
+  .title-header {
+    font-size: 20px;
+  }
+  * {
+    font-size: 14px;
+  }
 }
