@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  /* font-family: "Dancing Script", cursive; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.video {
+  height: 95vh;
+  width: 100%;
+  background-color: rgba(223, 71, 89, 0.1);
+  filter: blur(50);
+}
+
+/* title header */
+.title-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0 10px 0;
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+}
+.title-name {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #df4759;
+  font-size: 50px;
+  padding: 0 0 5px 0;
+  font-family: "Dancing Script", cursive;
+}
+
+/* menu */
+.menu {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* a */
+
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  color: #df4759;
+}
+
+/* txt title */
+.txt-title {
+  text-decoration: dashed;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+}
+
+/* line */
+.line {
+  width: 80px;
+  height: 3px;
+  background-color: #df4759;
+}
